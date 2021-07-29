@@ -7,6 +7,3 @@ for i in range(int(start),int(end+1)):
     if i % 7 == 0 and i % 5 != 0:
         x.append(str(i))
 print(",".join(x))
-
-
-
